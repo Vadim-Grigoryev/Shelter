@@ -987,6 +987,9 @@ div.footerlocation a {
     }
 }
 @media only all and (max-width:790px) {
+    body {
+        overflow-x: hidden;
+    }
     .helpitems1,.helpitems2 {
         display: none;
     }
@@ -1172,6 +1175,9 @@ div.footerlocation a {
     }
 }
 @media only all and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
     .container {
         max-width: 95vw;
         grid-template-columns: 1fr;
@@ -1406,7 +1412,10 @@ div.footerlocation a {
     }
 @media only all and (max-width:680px) {
  /*our pets*/
-     .petscont {
+      body {
+        overflow-x: hidden;
+    }
+    .petscont {
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr;
@@ -1439,6 +1448,9 @@ div.footerlocation a {
 }
 }
 @media only all and (max-width:660px) {
+      body {
+        overflow-x: hidden;
+    }
     .friendspetcont {
         display: grid;
         grid-template-rows: repeat(3, 1fr);
@@ -1453,16 +1465,25 @@ div.footerlocation a {
     }
 }
 @media only all and (max-width:420px) {
+      body {
+        overflow-x: hidden;
+    }
     .credit {
         width: 90vw;
     }
 }
 @media only all and (max-width:380px) {
+      body {
+        overflow-x: hidden;
+    }
     .friendsbuttonscont {
         width: 300px;
     }
 }
 @media only all and (max-width:320px) {
+    body {
+        overflow-x: hidden;
+    }
     .not_only {
         height: 823px;
     }
