@@ -367,7 +367,7 @@ margin-bottom: 0
     height: 52px;
     width: 261px;
     border-radius: 100px;
-    padding: 15px 42px;
+    padding: 15px 0;
     background: #F1CDB3;
     font-family: 'Georgia';
     font-weight: 400;
@@ -468,7 +468,7 @@ margin-bottom: 0
     align-items: center;
 }
 .helpshelter {
-    width: 310px;
+    width: 95%;
     height: 90px;
     font-family: 'Georgia';
     font-weight: 400;
@@ -549,7 +549,7 @@ margin-bottom: 0
     justify-content: space-between;
 }
 .h2donation {
-    width: 300px;
+    width: 95%;
     height: 90px;
     margin-top: -10px;
     margin-bottom: 0;
@@ -1605,7 +1605,7 @@ div.footerlocation a {
     margin-right: 7px;
    }
    .helpshelter {
-    width: 223px;
+   /* width: 223px;*/
     height: 64px;
     font-size: 25px;
     margin-top: 322px;
@@ -1643,7 +1643,7 @@ div.footerlocation a {
     height: 281px;
    }
    .h2donation {
-    width: 300px;
+    width: 95%;
     height: 64px;
     font-size: 25px;
     margin-top: 2px;
