@@ -39,9 +39,9 @@ html, body {
     height: 60px;
 }
 
-.logo{
+/*.logo{
     width: 186px;
-}
+}*/
 .cozy{
     font-family: 'Georgia';
     font-weight: 400;
@@ -402,7 +402,7 @@ margin-bottom: 0
     border-radius: 100px;
     border: solid #F1CDB3 2px;
     background-color: white;
-    padding: 15px 43px;
+    padding: 15px 0;
     font-family: 'Georgia';
     letter-spacing: 0.06em;
     font-weight: 400;
@@ -1210,7 +1210,7 @@ div.footerlocation a {
         align-items: center;
         background-color:#292929;
         z-index: 2;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 55px;
         transition: ease-in-out 1.5s;
